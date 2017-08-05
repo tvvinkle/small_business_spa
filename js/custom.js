@@ -44,7 +44,7 @@ $(document).ready(function(){
     })
 })
 
-// Add smooth scrolling (CSS tricks snippet)
+// Smooth scrolling
 
 $(document).ready(function(){
     'use strict'
@@ -103,7 +103,7 @@ $(document).ready(function(){
     })
 })
 
-// hightlight menu item on scroll
+// Hightlight menu item on scroll
 
 $(document).ready(function(){
     'use strict'
@@ -132,7 +132,7 @@ $(document).ready(function(){
     })
 })
 
-// add auto padding to header
+// Add auto padding to header
 
 $(document).ready(function(){
     'use strict'
@@ -152,3 +152,33 @@ $(document).ready(function(){
     }, 10)
 
 })
+
+//Bxslider
+  
+$(document).ready(function(){
+
+  $('.bxslider').bxSlider({
+    slideWidth: 292.5,
+    auto: true,
+    minSlides: 1,
+    maxSlides: 3,
+    slideMargin: 50
+  })
+})
+
+// Counter
+$(document).ready(function(){
+  $('.counter-num').counterUp({
+    delay:10,
+    time:2500
+  })
+})
+
+// Animation (wow)
+$(document).ready(function(){
+  'use strickt'
+  
+    new WOW().init();
+})
+
+
